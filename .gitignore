@@ -1,0 +1,8 @@
+# Live logs and generated media. Never commit a key.
+logs/calls.jsonl
+out/*
+!out/.gitkeep
+__pycache__/
+*.pyc
+.venv/
+.env
