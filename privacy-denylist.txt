@@ -1,0 +1,12 @@
+# Consultant privacy denylist
+# Lines starting with # are comments. Blank lines are ignored.
+# A plain line is a case-insensitive literal substring.
+# A line starting with re: is a regular expression (ignored case).
+#
+# Text that matches is refused unless the caller passes --i-have-owner-ok.
+# The toolkit also always applies the built-in markers listed in privacy.py.
+# This file is shareable. Do not put anyone's real data or a real API key here.
+#
+# Examples (replace with your own household's private words):
+# your-family-surname
+# re:\bhome address\b
