@@ -1,0 +1,25 @@
+{
+  "name": "Gemini Consultant",
+  "id": "YOUR_DRIVE_FOLDER_ID",
+  "link": "https://drive.google.com/drive/folders/YOUR_DRIVE_FOLDER_ID",
+  "parent_note": "Optional. Fill in your own Drive folder id if you want sync manifests.",
+  "sibling_of": {
+    "name": "Your main backups folder",
+    "id": "YOUR_BACKUPS_FOLDER_ID",
+    "link": ""
+  },
+  "cap_bytes": 104857600,
+  "cap_mb": 100,
+  "subfolders": {
+    "out": {
+      "name": "out",
+      "id": "YOUR_OUT_FOLDER_ID",
+      "link": ""
+    },
+    "logs": {
+      "name": "logs",
+      "id": "YOUR_LOGS_FOLDER_ID",
+      "link": ""
+    }
+  }
+}
