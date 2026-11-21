@@ -6,3 +6,7 @@ __pycache__/
 *.pyc
 .venv/
 .env
+
+# Working copies — never publish or upload
+*.bak*
+*.bak-*
